@@ -14,7 +14,7 @@ import glob
 from pathlib import Path
 
 # Iterate through all images in folder and predict class.
-for image_path in glob.glob("C:/Users/meyer-4/001_UdacityAIProgrammingwPythonFinalProject/flowers/test/99/*.jpg"):
+for image_path in glob.glob("C:/Users/username/path_to_project/flowers/test/99/*.jpg"):
     # Use pathlib.Path() to be able to run code on Windows.
     image_path = Path(image_path)
     # Predict class for given image.
