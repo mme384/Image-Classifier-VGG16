@@ -1,16 +1,17 @@
+
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jun 28 19:15:48 2019
-
-@author: meyer-4
-"""
-
-"""
-in this script, we calculate the image per channel mean and standard
-deviation in the training set, do not calculate the statistics on the
-whole dataset, as per here http://cs231n.github.io/neural-networks-2/#datapre
-
-https://gist.github.com/jdhao/9a86d4b9e4f79c5330d54de991461fd6#file-calculate_trainset_mean_std-py
+    FILE NAME: calculate_trainset_mean_std.py
+    AUTHOR: Michalis Meyer
+    DATE CREATED: 28.06.2020
+    DATE LAST MODIFIED: 25.03.2020
+    PYTHON VERSION: 3.6.3
+    SCRIPT PURPOSE: The script calculates the image per channel mean and standard
+    deviation in the training set, do not calculate the statistics on the whole
+    dataset, as per here http://cs231n.github.io/neural-networks-2/#datapre
+    
+    Source: https://gist.github.com/jdhao/9a86d4b9e4f79c5330d54de991461fd6#file-calculate_trainset_mean_std-py
 """
 
 import numpy as np
