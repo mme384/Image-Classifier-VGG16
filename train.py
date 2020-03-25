@@ -6,7 +6,7 @@
     DATE CREATED: 24.05.2019
     DATE LAST MODIFIED: 07.07.2019
     PYTHON VERSION: 3.6.3
-    SAMPLE COMMAND LINE: python3 train_rev1.py --file_path "C:/Users/username/filepath_to_project/flowers" --arch "vgg16" --epochs 5 --batch_size 64 --gpu "gpu" --running_loss True --valid_loss True --valid_accuracy True --test True
+    SAMPLE COMMAND LINE: python3 train_rev1.py --file_path "C:/Users/username/path_to_project/flowers" --arch "vgg16" --epochs 5 --batch_size 64 --gpu "gpu" --running_loss True --valid_loss True --valid_accuracy True --test True
     SCRIPT PURPOSE: Train neural network.
 """
 
