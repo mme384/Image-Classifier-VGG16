@@ -53,7 +53,7 @@ def cal_dir_stat(root):
 
 # The script assumes that under train_root, there are separate directories for each class
 # of training images.
-train_root = "C:/Users/meyer-4/001_UdacityAIProgrammingwPythonFinalProject/flowers/train"
+train_root = "C:/Users/username/path_to_project/flowers/train"
 start = timeit.default_timer()
 mean, std = cal_dir_stat(train_root)
 end = timeit.default_timer()
