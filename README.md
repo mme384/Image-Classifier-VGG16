@@ -1,8 +1,9 @@
 # AI Programming with Python Project
 
-This project contains the code created as partial fulfilment for Udacity's AI Programming with Python Nanodegree program.
+CNN VGG16 image classifier build on PyTorch. Developed as partial fulfilment for Udacity's AI Programming with Python Nanodegree program.
 
-First, train.py is developed to define a CNN VGG16 in PyTorch, trained and the network parameters stored in a checkpoint file. Second, predict.py rebuilds the model and predict the class of an input image
+1) train.py defines a CNN based on VGG16 based on PyTorch, traines the model and saves the checkpoints.
+2) predict.py rebuilds the model and predict the class of an input image
 
 ## Project Files
 - README.md: Project README
@@ -16,7 +17,9 @@ First, train.py is developed to define a CNN VGG16 in PyTorch, trained and the n
 http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html
 
 ## Model
-The model VGG16 provided by PyTorch is used. The pretrained feature detector is used without modifications, but not the pretrained classifier. The custom classifier is used.
+The model VGG16 provided by PyTorch is used. The pretrained feature detector is used without modifications.
+
+The custom classifier is used instead of the pretrained classifier. The classifier has following structure:
 - Input layer has 25088 inputs
 - The hidden layers have 4896 and 512 nodes respectively, use ReLU as the activation function and the dropout layers with 20% dropout rate.
 - The output layer has 102 nodes, as there are 102 classes, and uses Softmax as the activation function.
